@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(cors());
 
 app.use(cors({
-  origin: "http://localhost:5173", // Allow frontend URL
+  origin: "https://quirky-roomie-frontend.vercel.app", // Allow frontend URL
   credentials: true, // Allow cookies/auth headers
 }));
 
