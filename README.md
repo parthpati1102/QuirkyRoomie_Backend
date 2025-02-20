@@ -21,7 +21,7 @@ This is the backend of QuirkyRoomie, a flatmate conflict management system built
 Install dependencies:
 - npm install
 ## Create a .env file:
-MONGO_URI=<your-mongodb-connection-string>
+MONGO_URI=your-mongodb-connection-string
 
 ## Run the server:
 npm start
