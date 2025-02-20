@@ -20,7 +20,6 @@ This is the backend of QuirkyRoomie, a flatmate conflict management system built
 ## 🛠️ Installation & Setup
 Install dependencies:
 - npm install
-- 
 ## Create a .env file:
 MONGO_URI=<your-mongodb-connection-string>
 
@@ -29,9 +28,9 @@ npm start
 
 ## API Endpoints
 ## Method	Endpoint	Description
-POST	/api/auth/register	       Register a new user
-POST	/api/auth/login	           Login & get JWT
-POST	/api/complaints	           File a complaint
-GET	/api/complaints	             Get all active complaints
-PUT	/api/complaints/{id}	       Resolve a complaint
-POST	/api/complaints/{id}/vote	 Upvote/downvote
+- POST	/api/auth/register	       Register a new user
+- POST	/api/auth/login	           Login & get JWT
+- POST	/api/complaints	           File a complaint
+- GET	/api/complaints	             Get all active complaints
+- PUT	/api/complaints/{id}	       Resolve a complaint
+- POST	/api/complaints/{id}/vote	 Upvote/downvote
