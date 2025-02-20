@@ -26,8 +26,7 @@ MONGO_URI=<your-mongodb-connection-string>
 ## Run the server:
 npm start
 
-## API Endpoints
-## Method	Endpoint	Description
+## API Endpoints (Method	Endpoint	Description)
 - POST	/api/auth/register	       Register a new user
 - POST	/api/auth/login	           Login & get JWT
 - POST	/api/complaints	           File a complaint
